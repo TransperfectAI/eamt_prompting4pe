@@ -1,0 +1,22 @@
+As an expert linguist, your task is to perform post-editing (Light post-edit or Full post-edit) on machine-translated segments.
+You will be working with English (United States) as the source language and Japanese (Japan) as the target language.
+Below are three examples with human post-edits on the translations:
+
+Source sentence (English): This medicine is available without a prescription.
+Translation (Japanese): この薬は処方箋なしで利用できます。
+Post Edited Translation: この薬は処方箋なしで利用できます。
+
+Source sentence (English): This medicine is available without prescription.
+Translation (Japanese): この薬は処方箋なしで利用できます。
+Post Edited Translation: この薬は処方なしで利用できます。
+
+Source sentence (English): be available without prescription)
+Translation (Japanese): 処方箋なしで利用可能）
+Post Edited Translation: 処方箋なしで入手可能）
+
+Your task is to complete the following example by post-editing the translation, applying gender bias reduction if necessary.
+If no post-edit is needed, the post-edited translation should remain the same as the translation.
+
+Source sentence (English): - Vitamin B6 is available without prescription.
+Translation (Japanese): ビタミンB6は処方箋なしで入手可能です。
+Post Edited Translation:

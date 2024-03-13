@@ -1,0 +1,59 @@
+Hi, Claude. Can you please identify all the errors in the provided translation pairs between the <pair></pair> tags and categorize them according to the categories below? Note that there can be sentence with no errors at all!
+Here are some error categories, inside <error_category></error_category> XML tags.
+
+    <error_category>Fluency: errors related to the linguistic well-formedness of the text, including problems with grammaticality, spelling, punctuation, and mechanical correctness.</error_category>
+    <sub_category>Domain Terminology: althought the translation might be correct, it is not suited for the type of text.</sub_category>
+    <sub_category>Grammar: errors related to the grammar of a language</sub_category>
+    <sub_category>Inconsistency: translation is not consistent with previous words</sub_category>
+    <sub_category>Register: not using the right register (formal, informal, neutral)</sub_category>
+    <sub_category>Spelling: a term was misspelt, e.g., it contained to ss instead of one or a different letter was used.</sub_category>
+    <sub_category>Typography: typographic errors, related to punctuation or tags</sub_category>
+    <sub_category> Unintelligible: it is a made-up word or difficult to understand in normal language</sub_category>
+
+    <error_category>Terminology: errors arising when a term does not conform to normative domain or organizational terminology standards or when a term in the target text is not the correct, normative equivalent of the corresponding term in the source text.</error_category>
+    <sub_category>Domain Terminology: the error is a terminology issue dericing from the domain, the type of text: medical, tourism, daily life, law...</sub_category>
+
+    <error_category>Accuracy: errors occurring when the target text does not accurately correspond to the propositional content of the source text, introduced by distorting, omitting, or adding to the message.</error_category>
+    <sub_category>Addition: Addition of content.</sub_category>
+    <sub_category>Mistranslation: when a word has been translated differently that it should</sub_category>
+    <sub_category>Omission: omission of content</sub_category>
+    <sub_category>Untranslated: term was not translated</sub_category>
+
+    <error_category>Style: errors occurring in a text that are grammatically acceptable but are inappropriate because they deviate from organizational style guides or exhibit inappropriate language style.</error_category>
+
+    <error_category>Locale Convention: errors occurring when the translation product violates locale-specific content or formatting requirements for data elements.</error_category>
+
+    <error_category>Design: Errors regarding handling xml tags.</error_category>
+
+    <error_category>Source: There is an error on the Original segment</error_category>.
+
+
+<example>
+Source sentence (English): This medicine is available without a prescription.
+Translation (Japanese): この薬は処方箋なしで利用できます。
+Analysis:
+<MQM_errors></MQM_errors><fixed_translation>この薬は処方箋なしで利用できます。</fixed_translation>
+</example>
+
+<example>
+Source sentence (English): This medicine is available without prescription.
+Translation (Japanese): この薬は処方箋なしで利用できます。
+Analysis:
+<MQM_errors><error index="0" category="Accuracy" subcategory="Addition" severity="Minor"><description></description><error_span>箋</error_span></error></MQM_errors><fixed_translation>この薬は処方なしで利用できます。</fixed_translation>
+</example>
+
+<example>
+Source sentence (English): be available without prescription)
+Translation (Japanese): 処方箋なしで利用可能）
+Analysis:
+<MQM_errors><error index="0" category="Accuracy" subcategory="Mistranslation" severity="Minor"><description></description><error_span>利用</error_span></error></MQM_errors><fixed_translation>処方箋なしで入手可能）</fixed_translation>
+</example>
+
+<guideline>1- Every sentence can contain more than one error or no errors at all. In the case that there are no errors, the output will be <MQM_errors></MQM_errors> and the fixed translation between the <fixed_translation></fixed_translation> tags. In the case that there is more than one error use the following format: <MQM_errors><error>First error</error><error>Second error</error></MQM_errors></guideline>
+<guideline>2- Only provide MQM analysis as output, without any extra comment and make sure that the XML is correctly formatted and can be parsed with python.</guideline>
+<guideline>3- Make sure the output is only an XML that can be parsed with Python.</guidelines>
+<guideline>4- Use the same format as the one from the examples.</guideline>
+
+<pair>Source sentence (English): - Vitamin B6 is available without prescription.
+Translation (Japanese): ビタミンB6は処方箋なしで入手可能です。</pair>
+Analysis: 
