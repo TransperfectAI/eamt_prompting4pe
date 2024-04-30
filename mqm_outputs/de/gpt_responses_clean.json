@@ -1,0 +1,808 @@
+{
+  "sentences": [
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "- Vitamin B6 ist rezeptfrei erh\u00e4ltlich."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "- ausreichende Hydratation vor Beginn der Infusion von IVIg"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "1 mg / Kautablette 2,5 mg / Kautablette"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "125-ml-Infusionsbeutel."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "209 Handhabung des Pens Die Gebrauchsanweisung in der Packungsbeilage muss vor der Verwendung von OptiSet sorgf\u00e4ltig gelesen werden."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "220 Technische Ausr\u00fcstung und Anlagen"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Untranslated",
+          "description": "",
+          "error_span": "Mock-up-"
+        }
+      ],
+      "fixed_translation": "3 Unerw\u00fcnschte Wirkungen aus klinischen Studien mit dem Scheinimpfstoff sind unten aufgef\u00fchrt (siehe Abschnitt 5.1 f\u00fcr weitere Informationen zu Scheinimpfstoffen)."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Major",
+          "sub-category": "",
+          "description": "too literal",
+          "error_span": "die Stillzeit"
+        }
+      ],
+      "fixed_translation": "49 Stillzeit Da Fentanyl in die Muttermilch \u00fcbergeht, sollte w\u00e4hrend der Behandlung mit Fentanyl-ratiopharm nicht gestillt werden (siehe auch Abschnitt 4.6)."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "572 Diese Packungsbeilage wurde zuletzt genehmigt am {date}"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "\"to\" has been mistranslated as \"an\"",
+          "error_span": "an"
+        }
+      ],
+      "fixed_translation": "9 Technetium [99mTc] zerf\u00e4llt mit der Emission von Gammastrahlung mit einer Energie von 140 keV und einer Halbwertszeit von 6 Stunden zu Technetium [99Tc], was als quasi stabil angesehen werden kann."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Bei Patienten, die sich einer H\u00e4modialyse unterziehen, sollte eine niedrigere Anfangsdosis (75 mg) in Betracht gezogen werden."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Minor",
+          "sub-category": "Grammar",
+          "description": "The sentence structure in the German translation is awkward and could be improved for better readability.",
+          "error_span": "ADVATE ist intraven\u00f6s nach Rekonstitution des lyophilisierten Produkts mit dem bereitgestellten sterilisierten Wasser f\u00fcr Injektionszwecke zu verabreichen."
+        }
+      ],
+      "fixed_translation": "Das lyophilisierte Produkt ADVATE soll nach der Rekonstitution mit dem bereitgestellten sterilisierten Wasser intraven\u00f6s verabreicht werden."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Minor",
+          "sub-category": "Typography",
+          "description": "",
+          "error_span": "="
+        }
+      ],
+      "fixed_translation": "Nebenwirkungen, die bei Patienten berichtet wurden, die Xiliarx 100 mg t\u00e4glich in Kombination mit einem Thiazolidinedion in doppelblinden Studien erhielten (N = 158)"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Nach der Verd\u00fcnnung wurde die chemische und physikalische Stabilit\u00e4t f\u00fcr 30 Stunden bei bis zu 25 \u00b0C nachgewiesen."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "",
+          "error_span": "aufgelassen werden"
+        }
+      ],
+      "fixed_translation": "Aldara-Creme kann Kondome und Diaphragma schw\u00e4chen, daher sollte die Creme w\u00e4hrend sexueller Aktivit\u00e4t nicht aufgetragen bleiben."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Alexion Europe SAS 54-56 Avenue Hoche 75008 PARIS Frankreich"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Alle Unterschiede wurden entsprechend begr\u00fcndet und der vorgeschlagene Wortlaut in der Fachinformation ist akzeptabel."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Terminology",
+          "severity": "Minor",
+          "sub-category": "Domain Terminology",
+          "description": "The term \"Dichtstoffen\" is not the correct term in the medical domain for \"sealants\". The correct term should be \"Versiegelungsmitteln\".",
+          "error_span": "Dichtstoffen"
+        }
+      ],
+      "fixed_translation": "Wie bei anderen Versiegelungsmitteln kann TachoSil eine allergische Reaktion hervorrufen."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Minor",
+          "sub-category": "Grammar",
+          "description": "",
+          "error_span": "\u00fcber oder gleich der Baseline"
+        }
+      ],
+      "fixed_translation": "Nach einem Jahr (prim\u00e4re Analyse) wiesen 91,3 % (p = 0,005) der Patienten, die einmal monatlich Bondenza 150 mg erhielten, einen Anstieg der BMD der Lendenwirbels\u00e4ule \u00fcber oder gleich dem Baseline-Wert auf (BMD-Responder), verglichen mit 84,0 % der Patienten, die t\u00e4glich Ibandrons\u00e4ure 2,5 mg erhielten."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Axura 5 mg Filmtabletten Axura 10 mg Filmtabletten Axura 15 mg Filmtabletten Axura 20 mg Filmtabletten Memantinhydrochlorid"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Minor",
+          "sub-category": "Mistranslation",
+          "description": "the phrase \"dessen Nutzen und Risiko\" refers back to the wrong noun (it should refer to Oprymea, not the reference medicine)",
+          "error_span": "dessen Nutzen und Risiko"
+        }
+      ],
+      "fixed_translation": "Da Oprymea ein Generikum ist und dem Referenzarzneimittel bio\u00e4quivalent ist, werden sein Nutzen und Risiko als das gleiche wie das des Referenzarzneimittels angesehen."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Lagern Sie Ihren Liprolog Basal KwikPen vor dem ersten Gebrauch in einem K\u00fchlschrank (2 \u00b0C \u2013 8 \u00b0C)."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Flasche (HDPE) Flasche (HDPE)"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Minor",
+          "sub-category": "Typography",
+          "description": "Extra period after \"Tel\"",
+          "error_span": "Tel.: "
+        }
+      ],
+      "fixed_translation": "Brusselsesteenweg 288 B-3090 Overijse, Belgique/Belgien T\u00e9l/Tel: +32-2-686 07 11"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Eine Beendigung der Therapie mit Rebif sollte in Betracht gezogen werden (siehe Abschnitte 4.3 und 4.8)."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Major",
+          "sub-category": "Grammar",
+          "description": "The sentence lacks coherence and proper grammatical structure",
+          "error_span": "Merkmale bei Patienten Niereninsuffizienz Pelzont:"
+        }
+      ],
+      "fixed_translation": "Merkmale von Pelzont bei Patienten mit Niereninsuffizienz:"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "H\u00e4ufig: Neutropenie Gelegentlich: An\u00e4mie"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Cortavance ist ein Spray, das eine L\u00f6sung des Wirkstoffs Hydrocortisonaceponat enth\u00e4lt."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Major",
+          "sub-category": "Grammar",
+          "description": "The sentence structure in German is incorrect. The verb should be at the beginning of the sentence in imperative sentences.",
+          "error_span": "Kein anderes Insulin in einer Humalog BASAL-Kartusche mischen."
+        }
+      ],
+      "fixed_translation": "Mischen Sie kein anderes Insulin in einer Humalog BASAL-Kartusche."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Minor",
+          "sub-category": "",
+          "description": "article missing",
+          "error_span": "Liprolog "
+        }
+      ],
+      "fixed_translation": "Den Liprolog Basal KwikPen nach dem auf dem Etikett und dem Umkarton angegebenen Verfalldatum nicht mehr verwenden."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Major",
+          "sub-category": "Typography",
+          "description": "The symbol for 'greater than' is not correctly translated",
+          "error_span": "&gt;"
+        }
+      ],
+      "fixed_translation": "Dosierung bei \u00e4lteren Menschen (> 65 Jahre) Die Erfahrungen aus klinischen Studien deuten darauf hin, dass keine Dosisanpassung erforderlich ist."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Stellen Sie sicher, dass die H\u00e4nde trocken sind, damit die Tablette nicht an den Fingern klebt."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Mistranslation",
+          "description": "\"entnimmt\" would mean \"to take out\"",
+          "error_span": "entnimmt "
+        }
+      ],
+      "fixed_translation": "Schlie\u00dflich erfasst der Patient 30 Minuten nach dem Trinken der L\u00f6sung zwei weitere Atemproben."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Drehen Sie die Kunststoffschutzkappen von den Durchstechflaschen ab."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Eine vollst\u00e4ndige Liste aller mit Oxyglobin berichteten Nebenwirkungen finden Sie in der Packungsbeilage."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Zur intraven\u00f6sen Anwendung nach Rekonstitution und Verd\u00fcnnung."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Im Allgemeinen reicht ein Kit aus."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Major",
+          "sub-category": "",
+          "description": "",
+          "error_span": "AUFZUBEWAHREN?"
+        }
+      ],
+      "fixed_translation": "AUFBEWAHRUNG VON KINERET"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Wie wird TORISEL verabreicht 4."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Wie funktioniert Baraclude?"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Wie funktioniert Nonafact?"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Wie funktioniert OSSEOR?"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "Space in \"isn\u2019 t\" leads to mistranslation",
+          "error_span": "Wenn es t ist,"
+        }
+      ],
+      "fixed_translation": "Wenn dies nicht der Fall ist, drehen Sie die Kappe, bis der Druckknopf vollst\u00e4ndig gedr\u00fcckt ist \u2022 Halten Sie Ihren Actraphane 50 NovoLet waagerecht."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Mistranslation",
+          "description": "The term \"trial\" has been mistranslated as \"Studie\" (study), when in this context it should be translated as \"Versuch\" (attempt).",
+          "error_span": "Studie"
+        }
+      ],
+      "fixed_translation": "Wenn sich die Kontrolle der Epilepsie nach einem ad\u00e4quaten Versuch nicht klinisch signifikant verbessert, sollte die Vigabatrin-Behandlung nicht fortgesetzt werden."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "In klinischen Studien traten bei etwa 31 % der mit Venlafaxin behandelten Patienten und bei 17 % der Patienten, die Placebo erhielten, unerw\u00fcnschte Ereignisse bei Behandlungsabbruch (Ausschleichen und Nachschleichen) auf."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Im Falle einer versehentlichen \u00dcberdosierung sollte der Patient sorgf\u00e4ltig beobachtet werden, einschlie\u00dflich der \u00dcberwachung des Herzens (siehe Abschnitt 4.4)."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Mistranslation",
+          "description": "Incorrect translation of \"pathway\"",
+          "error_span": "Signalweg"
+        }
+      ],
+      "fixed_translation": "In-vitro-Studien zeigen, dass Rosiglitazon vorwiegend \u00fcber CYP2C8 metabolisiert wird, wobei CYP2C9 nur ein kleiner Stoffwechselweg ist."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Es enth\u00e4lt Spuren von IgA (weniger als 0,05 mg/ml)."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Minor",
+          "sub-category": "",
+          "description": "",
+          "error_span": "freizugeben"
+        }
+      ],
+      "fixed_translation": "Es k\u00f6nnte die in der Flasche verbliebenen Tropfen infizieren. \u2022 Dr\u00fccken Sie vorsichtig auf den Flaschenboden, um jeweils einen Tropfen EMADINE abzugeben. \u2022 Dr\u00fccken Sie die Flasche nicht zusammen, sie ist so konzipiert, dass nur ein sanfter Druck auf den Boden erforderlich ist (Bild 2). \u2022 Wenn Sie Tropfen in beiden Augen verwenden, wiederholen Sie die Schritte f\u00fcr Ihr anderes Auge. \u2022 Setzen Sie den Flaschendeckel sofort nach Gebrauch wieder fest auf."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Es wird empfohlen, den Impfstoff sofort nach der Rekonstitution zu verabreichen oder im K\u00fchlschrank aufzubewahren und innerhalb von 8 Stunden zu verwenden, um den Verlust der Wirksamkeit zu minimieren."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Wie alle Arzneimittel kann MicardisPlus Nebenwirkungen verursachen, die aber nicht bei jedem auftreten m\u00fcssen."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Arzneimittel, die mit hoher Affinit\u00e4t an den Dopamintransporter binden, k\u00f6nnen daher die DaTSCAN-Diagnose beeintr\u00e4chtigen."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Monat 1 __/__/__ 3 Filmtabletten Monat 2 __/__/__ 3 Filmtabletten Monat 3 __/__/__ 3 Filmtabletten Notieren Sie das Datum, an dem Sie Ihre Tablette einnehmen Offen"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Mistranslation",
+          "description": "",
+          "error_span": "Alkoholtuch"
+        }
+      ],
+      "fixed_translation": "HINWEIS: Verwenden Sie keine Bereiche, in denen Sie Knoten, feste Knoten oder Schmerzen versp\u00fcren; sprechen Sie mit Ihrem Arzt oder Ihrer medizinischen Fachkraft \u00fcber alles, was Sie finden. \u2022 Waschen Sie Ihre H\u00e4nde gr\u00fcndlich mit Seife und Wasser. \u2022 Entfernen Sie die Rebif-Spritze aus der Blisterpackung, indem Sie die Kunststoffabdeckung abziehen. \u2022 Verwenden Sie vor der Injektion einen Alkoholtupfer, um die Haut an der Injektionsstelle zu reinigen."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Es wurde \u00fcber Nervenkompression im Zusammenhang mit ektopischer Knochenbildung und der Verwendung von InductOs berichtet."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": ""
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Minor",
+          "sub-category": "",
+          "description": "too literal",
+          "error_span": "Kein Nutzen, der Extavia zuzuschreiben ist, in der Lebensqualit\u00e4t"
+        }
+      ],
+      "fixed_translation": "Kein auf Extavia zur\u00fcckzuf\u00fchrender Nutzen f\u00fcr die Lebensqualit\u00e4t (gemessen anhand der FAMS \u2013 Functional Assessment of MS:"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Minor",
+          "sub-category": "Grammar",
+          "description": "Incorrect use of modal verb \"d\u00fcrfen\" (may) instead of \"bleibt\" (remains).",
+          "error_span": "stehen darf"
+        }
+      ],
+      "fixed_translation": "Hinweis: Wenn das Produkt nach der Aktivierung l\u00e4nger als 5 Minuten stehen bleibt, sollte es vor dem Herausziehen der Spritze aus der Durchstechflasche mit 10 Sekunden H\u00e4ndesch\u00fctteln resuspendiert werden."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Von insgesamt 208 von den MAHs erhaltenen Gesichtsfelddiagrammen stellten 87 einen typischen Gesichtsfelddefekt dar, der aus einem binasalen konzentrischen Verengungsfehler mit relativer Schonung des Temporalfeldes bestand."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Eine Inhalation von 50 Mikrogramm Salmeterol und 500 Mikrogramm Fluticasonpropionat zweimal t\u00e4glich."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Weitere Informationen zu TESAVEL:"
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Minor",
+          "sub-category": "",
+          "description": "",
+          "error_span": "national "
+        }
+      ],
+      "fixed_translation": "Weitere nicht harmonisierte Abschnitte der Fachinformation, die von den Mitgliedstaaten bei der Umsetzung der harmonisierten Fachinformation landesspezifisch eingef\u00fchrt werden m\u00fcssen, sind:"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Paseo Pintor Rosales, 40 Bajo Izda."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Patienten in beiden Studienarmen durften nach mindestens 10 Tagen intraven\u00f6ser Therapie auf orales Fluconazol umstellen, sofern sie orale Medikamente vertragen konnten und seit mindestens 24 Stunden afebril waren und die j\u00fcngsten Blutkulturen f\u00fcr Candida-Spezies negativ waren."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Patienten mit schwerer Leberfunktionsst\u00f6rung sollten nicht mit Paclitaxel behandelt werden."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Fluency",
+          "severity": "Critical",
+          "sub-category": "Grammar",
+          "description": "The sentence structure is incorrect.",
+          "error_span": "Pharmakologisch Marker-R\u00fcckstand Wirkstoff"
+        }
+      ],
+      "fixed_translation": "Pharmakologisch aktiver Substanz-Marker-R\u00fcckstand"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Polyglutamierte Metaboliten haben eine erh\u00f6hte intrazellul\u00e4re Halbwertszeit, was zu einer verl\u00e4ngerten Arzneimittelwirkung in malignen Zellen f\u00fchrt."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Lithiumhaltige Pr\u00e4parate sollten nicht mit Irbesartan Hydrochlorothiazid Winthrop ohne engmaschige Aufsicht Ihres Arztes eingenommen werden."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Privigen 100 mg/ml Infusionsl\u00f6sung Humanes Normal-Immunglobulin (IVIg)"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die 2002 begonnenen Verfahren werden die bereits bestehende Arbeitslast in Bezug auf die 2000 und 2001 begonnenen Verfahren erh\u00f6hen."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Minor",
+          "sub-category": "",
+          "description": "",
+          "error_span": "\u00fcber "
+        }
+      ],
+      "fixed_translation": "Produktinformation Arztinformation zu INCRELEX (Informationskarte, Dosierungsanleitung und ein Dosisrechner) Patienteninformationspaket"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Empfohlene Dosis nach Indikation"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Nierenfunktionsst\u00f6rung / Leberfunktionsst\u00f6rung:"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Nierenfunktionsst\u00f6rung und Nierentransplantation: Wenn Irbesartan Winthrop bei Patienten mit eingeschr\u00e4nkter Nierenfunktion angewendet wird, wird eine regelm\u00e4\u00dfige \u00dcberwachung der Kalium- und Kreatinin-Serumspiegel empfohlen."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Ritonavir als pharmakokinetischer Enhancer oder als antiretroviraler Wirkstoff hemmt CYP3A4 und erh\u00f6ht dadurch voraussichtlich die Plasmakonzentrationen von Calciumkanalantagonisten."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "FACHINFORMATION, KENNZEICHNUNG UND PACKUNGSBEILAGE"
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": ""
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "\"most probably\" was translated as \"am wahrscheinlichsten\", but it should be \"wahrscheinlich\"",
+          "error_span": "am wahrscheinlichsten "
+        }
+      ],
+      "fixed_translation": "Die Nebenwirkungen verschwinden wahrscheinlich sukzessive, wenn sich Ihr K\u00f6rper an das Medikament gew\u00f6hnt."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Ebenso gab es keine klinisch signifikante pharmakokinetische Wechselwirkung von Starlix mit anderen oralen Antidiabetika wie Metformin oder Glibenclamid."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Johanniskraut wird h\u00e4ufig in pflanzlichen Arzneimitteln verwendet, die Sie selbst kaufen k\u00f6nnen."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "\"Statut der Beamten der Europ\u00e4ischen Gemeinschaften\" is the title of an EU regulation",
+          "error_span": "Personalvorschriften "
+        }
+      ],
+      "fixed_translation": "Statut der Beamten der Europ\u00e4ischen Gemeinschaften, insbesondere Artikel 70, 74 und 75 davon."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Mistranslation",
+          "description": "translated as \"significantly\"",
+          "error_span": "signifikant "
+        }
+      ],
+      "fixed_translation": "Die Stuhlkonsistenz war bei Patienten, die bei Baseline weichen Stuhl hatten, nicht bedeutend verbessert."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die Einnahme von Zyrtec zusammen mit Nahrungsmitteln und Getr\u00e4nken hat keinen nennenswerten Einfluss auf die Aufnahme von Cetirizin."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Minor",
+          "sub-category": "Mistranslation",
+          "description": "\"The\" is not needed before \"Denmark\"",
+          "error_span": "The Denmark"
+        }
+      ],
+      "fixed_translation": "Am 3. M\u00e4rz 2006 leitete D\u00e4nemark die Gr\u00fcnde f\u00fcr die unterschiedliche Auffassung an die EMEA weiter."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die Chemotherapie sollte nach der MabThera-Infusion verabreicht werden."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die gleichzeitige Anwendung von Ritonavir oder anderen CYP3A4-Inhibitoren und IONSYS wird nicht empfohlen, es sei denn, der Patient wird engmaschig \u00fcberwacht."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Style",
+          "severity": "Minor",
+          "sub-category": "",
+          "description": "too literal",
+          "error_span": "Thrombozytenaggregationshemmeraktivit\u00e4t"
+        }
+      ],
+      "fixed_translation": "Der Unterschied in der antipl\u00e4ttchen Aktivit\u00e4t zwischen einigen COX-1-hemmenden NSAR und selektiven COX-2-Inhibitoren kann bei Patienten mit einem Risiko f\u00fcr thromboembolische Ereignisse von klinischer Bedeutung sein."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die Infusion dauert etwa 30 Minuten."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die wahrscheinlichsten Manifestationen einer \u00dcberdosierung w\u00e4ren Hypotonie im Zusammenhang mit der antihypertensiven Wirkung von Aliskiren."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "wrong term",
+          "error_span": "Koronarangiographie"
+        }
+      ],
+      "fixed_translation": "Die Patienten, die mit h\u00f6herer Wahrscheinlichkeit von einer Behandlung mit INTEGRILIN profitieren, haben eine akute Angina pectoris und k\u00f6nnen sich einer speziellen Art von Operation unterziehen, um die Arterien zum Herzen zu reinigen (perkutane transluminale Koronarangioplastie oder PTCA)."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die empfohlene Dosierung liegt im Bereich von 5 bis 10 Millionen I.E."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Major",
+          "sub-category": "Mistranslation",
+          "description": "wrong term",
+          "error_span": "\u00dcberweisung"
+        }
+      ],
+      "fixed_translation": "Die \u00dcberpr\u00fcfung befasst sich mit der Frage, dass nach Ansicht Frankreichs die \u00c4quivalenz zwischen der Referenzimpfstoffcharge f\u00fcr den im Originaldossier validierten Erysipel-Wirksamkeitstest und den neuen Referenzimpfstoffchargen f\u00fcr diese 2 Chargen nicht gezeigt wurde und folglich der CVMP \u00fcberlegen musste, ob die Genehmigung f\u00fcr das Inverkehrbringen ge\u00e4ndert, zur\u00fcckgezogen oder ausgesetzt werden solle."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die L\u00f6sung sollte klar und farblos sein."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die \u00fcbliche wirksame Dosis von Lamictal f\u00fcr Erwachsene und Kinder \u00fcber 12 Jahren liegt zwischen 100 mg und 400 mg pro Tag."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Die Durchstechflaschen sollten vorsichtig geschwenkt und nicht gesch\u00fcttelt werden."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Diese Daten erlauben keine wirksame und sichere Dosisempfehlung."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Durst, erh\u00f6hter Harndrang, M\u00fcdigkeit, trockene Haut, Gesichtsr\u00f6tung, Appetitlosigkeit, niedriger Blutdruck, schneller Herzschlag sowie Glukose- und Ketonk\u00f6rper im Urin."
+    },
+    {
+      "MQM_errors": [
+        {
+          "category": "Accuracy",
+          "severity": "Critical",
+          "sub-category": "Mistranslation",
+          "description": "term does not exist",
+          "error_span": "Gullet "
+        }
+      ],
+      "fixed_translation": "Dies ist eine Erkrankung, bei der sich die Auskleidung am unteren Ende der Speiser\u00f6hre aufgrund von Sch\u00e4den durch Magens\u00e4ure ver\u00e4ndert hat."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Zu den schwerwiegenden Nebenwirkungen, die TRISENOX zugeschrieben wurden, geh\u00f6rten APL-Differenzierungssyndrom (3), Leukozytose (3), verl\u00e4ngertes QT-Intervall (4, 1 mit Torsade de pointes), Vorhofflimmern/-flattern (1), Hyperglyk\u00e4mie (2) und eine Vielzahl von schwerwiegenden Nebenwirkungen im Zusammenhang mit Blutungen, Infektionen, Schmerzen, Durchfall, \u00dcbelkeit."
+    },
+    {
+      "MQM_errors": [
+        []
+      ],
+      "fixed_translation": "Behandlung von Patienten mit bestimmten entz\u00fcndlichen Erkrankungen (Immunmodulation)."
+    }
+  ]
+}
